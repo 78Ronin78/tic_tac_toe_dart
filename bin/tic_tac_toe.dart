@@ -12,7 +12,7 @@ const int crossWin = 2; // победа Х
 const int noughtWin = 3; // победа 0
 const int quit = 3;
 
-void main(List<String> arguments) {
+void run(List<String> arguments) {
   late List<List<int>> board;
   int boardSize = 3; // размер игрового поля по-умолчнию
   int state = playing;
